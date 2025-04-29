@@ -1,0 +1,74 @@
+#box{
+    background-color: blue;
+    /* color: white; */
+}
+
+.heading{
+    color: red;
+}
+
+/* Below is the second approach to change the color of an elements instead of using class selectors */
+
+/* h1, h2, h3{
+    color: red;
+} */
+
+button{
+    background-color: green;
+}
+
+h1{
+    text-align: right;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+}
+
+p{
+    /* text-align: center; */
+    /* Text will be assigned towards left */
+    text-align: start;
+    /* Text will be assigned towards right */
+    /* text-align: end; */
+}
+
+a{
+    /* text-decoration: none; */
+    text-decoration: red wavy underline;
+}
+
+#h1{
+    /* font-weight: normal; */
+    font-weight: 100;
+}
+
+#h2{
+    /* font-weight: lighter; */
+    font-weight: 250;
+}
+
+#h3{
+    font-weight: 600;
+}
+
+#h4{
+    font-weight: 900;
+}
+
+#one{
+    font-family: arial;
+    /* line-height: 50px; */
+    line-height: normal;
+    text-transform: uppercase;
+    /* text-transform: lowercase;
+    text-transform: capitalize;
+    text-transform: none; */
+}
+
+#two{
+    font-family: 'Segoe UI';
+}
+
+#three{
+    font-size: 25px;
+}

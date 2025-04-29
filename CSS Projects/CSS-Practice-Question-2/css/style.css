@@ -1,0 +1,17 @@
+/* Set the font family of all the content in the document to Times New Roman */
+*{
+    font-family: 'Times New Roman';
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}

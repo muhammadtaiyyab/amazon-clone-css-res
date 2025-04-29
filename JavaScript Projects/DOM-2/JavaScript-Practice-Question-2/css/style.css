@@ -1,0 +1,11 @@
+/* now we are giving the style to the content class. */
+
+.content{
+    color: red;
+}
+
+/* now we have to do that; we have to create a new class in css and try to append this class to the p element */
+
+.newClass{
+    background-color: green;
+}

@@ -1,0 +1,21 @@
+/* Step 1: Create a div with circular shape & a thick border from one end (top/bottom/left/right) */
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #b2b1cf;
+    border-top: 20px solid #E1F2FE;
+    /* Step 3: Add the animation property to the loader with infinite duration */
+    animation: spinAnimate 3s ease-in 0s infinite normal;
+}
+
+/* Step 2: To make it spin create an animation which transforms it from 0deg to 360deg */
+/* Key Frame is just a template this is not an actual animation */
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

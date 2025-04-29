@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+}
+
+div{
+    /* height: 100px; */
+    /* height: 20px; */
+    height: 100px;
+    /* width: 500px; */
+    /* width: 50px; */
+    width: 150px;   
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    /* width: 800px; */
+    width: 600px;
+    /* height: 200px; */
+    height: 600px;
+    display: flex;
+    flex-direction: row; 
+    /* flex-direction: column; */
+    /* row-reverse; There will be no change in the direction of container becuase by-default all the items are in a row direction  */
+    /* flex-direction: column;  column-reverse*/
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* For Column */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75px;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+}

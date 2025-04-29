@@ -1,0 +1,61 @@
+/* h1{
+    color: rgb(180, 241, 9);
+}
+
+p{
+    color: rgb(20, 168, 156);
+}
+
+button{
+    color: rgb(17, 3, 4);
+    background-color: rgb(118, 221, 108);
+}
+
+body{
+    /* background-color: rgb(255, 0, 0); */
+    /* background-color: rgb(255, 200, 0); */
+
+    /* background-color: #ff0000; */
+
+    /* background-color: #381d2a; */
+/*}
+
+/* button{
+    background-color: green;
+} */
+
+/* Universal Selector */
+*{
+    color: blue;
+}
+
+/* Element Selector */
+/* h1{
+    color: green;
+} */
+
+button{
+    color: brown;
+}
+
+/* ID Selector */
+#headingOne{
+    color: yellow;
+}
+
+#headingTwo{
+    color: chocolate;
+}
+
+/* #headingThree{
+    color: magenta;
+} */
+
+#headingFour{
+    color: green;
+}
+
+/* Class Selector */
+.myClass{
+    color: magenta;
+}

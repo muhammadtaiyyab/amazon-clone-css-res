@@ -1,0 +1,54 @@
+/* div{
+    background-color: pink;
+    display: flex;
+    justify-content: center; */
+    /* justify-content: space-evenly; */
+/* } */
+
+/* a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    
+} */
+
+/* li{
+    list-style-type: none;
+    display: inline; */
+    /* margin-right: 0px; */
+/* } */
+
+.navbar{
+    background-color: pink;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+
+li{
+    list-style-type: none;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    /* Below is used to make the items center along the main-axis (left to right) for horizontally align */
+    justify-content: center; 
+    /* Below is used to make the items center along the cross-axis (top to bottom) for vertically align */
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    align-self: flex-start;
+}

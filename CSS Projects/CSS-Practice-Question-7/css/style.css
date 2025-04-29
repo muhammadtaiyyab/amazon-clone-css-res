@@ -1,0 +1,33 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+/* The color of a div changes to green viewport width less than 300px */
+@media(max-width:300px){
+    div{
+        background-color: green;
+    }
+}
+
+/* The color of a div changes to pink for width between 300px to 400px */
+@media(min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+
+/* The color of a div changes to red for width between 400px to 600px */
+@media(min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}
+
+/* The color of a div changes to blue for width increases from 600px */
+@media(min-width:600px){
+    div{
+        background-color: blue;
+    }
+}
